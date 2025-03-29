@@ -19,6 +19,7 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 ### 백엔드  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=plastic&logo=Spring%20Boot&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=plastic&logo=Java&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=plastic&logo=Apache%20Maven&logoColor=white)
 
 ### DB / 데이터베이스  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=MySQL&logoColor=white)
