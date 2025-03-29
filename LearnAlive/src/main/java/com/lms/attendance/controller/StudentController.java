@@ -1,6 +1,7 @@
 package com.lms.attendance.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -75,4 +76,54 @@ public class StudentController {
         }
         return ResponseEntity.ok(student);
     }
+
+    
+    
+    
+    
+ // ✅ 수강생 아이디 찾기 엔드포인트
+    @PostMapping("/find-id")
+    public ResponseEntity<?> findStudentId(@RequestBody Map<String, String> request) {
+        String name = request.get("name");
+        String email = request.get("email");
+        
+        // studentService에 findStudentByNameAndEmail 메서드 구현 필요
+        Student student = studentService.findStudentByNameAndEmail(name, email);
+        if (student == null) {
+            return ResponseEntity.status(404).body(
+                Map.of("success", false, "message", "해당 정보와 일치하는 ID가 없습니다.")
+            );
+        }
+        return ResponseEntity.ok(
+            Map.of("success", true, "userId", student.getStudentId())  // getStudentId()는 학생 ID를 반환하는 메서드라고 가정
+        );
+    }
+    
+    // ✅ 수강생 비밀번호 재설정 엔드포인트
+    @PostMapping("/reset-password")
+    public ResponseEntity<?> resetStudentPassword(@RequestBody Map<String, String> request) {
+        String studentId = request.get("studentId"); // userId 대신 studentId로 받는게 좋습니다.
+        String name = request.get("name");
+        String phone = request.get("phone");
+        String newPassword = request.get("newPassword");
+
+        if (studentId == null || name == null || phone == null || newPassword == null ||
+            studentId.isEmpty() || name.isEmpty() || phone.isEmpty() || newPassword.isEmpty()) {
+            return ResponseEntity.badRequest()
+                    .body(Map.of("success", false, "message", "모든 정보를 입력해주세요."));
+        }
+        
+        Student student = studentService.findByIdAndNameAndPhone(studentId, name, phone);
+        if (student == null) {
+            return ResponseEntity.status(404)
+                    .body(Map.of("success", false, "message", "일치하는 정보를 찾을 수 없습니다."));
+        }
+        
+        // updateStudent 대신 updateStudentPassword를 호출해야 비밀번호가 업데이트됩니다.
+        studentService.updateStudentPassword(studentId, newPassword);
+        
+        return ResponseEntity.ok(
+                Map.of("success", true, "message", "비밀번호가 성공적으로 재설정되었습니다."));
+    }
 }
+    
