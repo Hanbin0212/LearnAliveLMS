@@ -119,13 +119,14 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 ---
 
+
 ## 4. 대학/학과 관리
 대학/학과 관리 페이지에서 단과대학 및 학과를 생성/수정/삭제 할 수 있습니다.
 
 <img src="https://github.com/user-attachments/assets/66ed5ddb-3c68-47dc-a0c4-c5acdc5d9028" width="800" alt="대학: 학과관리">
 
 
-</br>
+</br></br>
 
 ---
 
