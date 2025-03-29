@@ -106,12 +106,42 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 ## 4. 대학/학과 관리
 대학/학과 관리 페이지에서 단과대학 및 학과를 생성/수정/삭제 할 수 있습니다.
 
+<img src="https://github.com/user-attachments/assets/66ed5ddb-3c68-47dc-a0c4-c5acdc5d9028" width="800" alt="대학: 학과관리">
 
 
-
-
+</br>
 
 ---
+
+</br>
+
+
+
+##5. 회원가입, 회원정보 찾기 및 비밀번호 수정
+- 생성한 단과대학/학과를 이용하여 학습자 회원가입을 할 수 있습니다. </br>
+- ID찾기 및 비밀번호 재설정을 할 수 있습니다.
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a91143ee-aa26-4bd6-9fff-f22186cc3f02" width="750" alt="회원가입">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2306b97f-87f2-4da0-9a14-ce0c3ab47664" width="750" alt="교수자 아이디 찾기 및 비밀번호 재설정">
+    </td>
+  </tr>
+</table>
+
+
+
+</br>
+
+---
+
+</br>
+
+
 
 ## 메인 기술 스택
 - **Frontend**: React, Vite
