@@ -10,17 +10,17 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 ---
 
 ## **🔑 담당 주요 기능**
-### ✅ 로그인 세션 관리
+### 1. 로그인 세션 관리
 - **관리자, 교수자, 학습자 역할별 로그인 및 세션 관리**
 - **BCrypt를 이용한 ID/PW 찾기 기능**
 - **회원정보 찾기 및 재설정 기능**
 
-### **🛠 관리자 기능**
+### **2. 관리자 기능**
 - **교수자 관리** : 교수자 추가, 수정, 삭제 기능 구현
 - **공지사항 관리** : 공지사항 생성, 수정, 삭제 기능 구현
 - **대학/학과 관리** : 단과대학/학과 생성, 수정, 삭제 기능 구현 
 
-### ✅ 교수자 권한
+### 3. 교수자 권한
 - **팀활동 현황** : 각 조별과제 과정 현황을 나타낼 수 있는 '마일스톤' 관리기능
 - **팀 동료평가** : 조별과제 진행 중 동료평가 기능 구현 (구현중)
 
@@ -33,7 +33,7 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 ## **💻 프로젝트 주요 화면**
 
-### 📌 첫 화면 (Admin,Professor,Student) 계정으로 로그인
+### 1. 첫 화면 (Admin,Professor,Student) 계정으로 로그인
 - **Header**: **[로그인 전]** -> `로그인` `회원정보찾기` `회원가입`   </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[로그인 후]** -> `교수자 관리` `대학/학과 관리`
 - **Body**: `공지사항 관리` `내 강의실`
@@ -54,7 +54,7 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 </br>
 
-## 교수자 생성/수정/삭제
+## 2. 교수자 생성/수정/삭제
 
 
 <table>
@@ -71,25 +71,33 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 
 
-## 📢 공지사항 관리
+## 3. 공지사항 관리
 
 ### 📝 공지사항 생성
-공지사항 관리 페이지에서 새로운 공지사항을 생성할 수 있습니다. 생성된 공지사항은 메인 화면에 즉시 반영됩니다.
+공지사항 관리 페이지에서 공지사항을 생성/수정/삭제 할 수 있습니다.
 
-![공지사항 생성](https://github.com/user-attachments/assets/c6c85066-13ce-4641-9432-b7829a2a6cea)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2707a62f-60ae-4234-a7c4-0cdd162ee017" width="750" alt="공지사항 열람">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/dd7c1cb6-fcb7-4cee-96c7-9f0ecf4a7347" width="750" alt="공지사항 생성">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/dfce858c-200b-4945-845b-3aec4376cc86" width="750" alt="공지사항 수정">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/1f9196af-bfb1-4e60-9229-e7c0b8532a61" width="750" alt="공지사항 삭제">
+    </td>
+  </tr>
+</table>
 
 
-### 🛠 공지사항 수정
-공지사항을 수정하고 `수정` 버튼 클릭 시 변경 사항이 반영됩니다.
 
-![공지사항 수정](https://github.com/user-attachments/assets/efa4d3bd-9630-45de-a8aa-6e46cbc79cfc)
-
-### 🗑 공지사항 삭제
-공지사항을 선택 후 `삭제` 버튼 클릭 시 해당 공지사항이 삭제됩니다.
-![공지사항 삭제](https://github.com/user-attachments/assets/7b879266-ac91-4b4e-ad63-1523d3ce5bc3)
-
-
-## 👨‍🏫 교수자 관리
+## 4. 대학/학과 관리
 
 ### 교수자 추가
 - 교수자 정보를 입력 후 `생성` 버튼을 클릭하면 교수자가 추가됩니다.
