@@ -40,9 +40,9 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/91baacf6-9e4d-4446-ad89-1a162766c5a4" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/85197850-f5e7-4fc7-9e17-29e552690d19" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/c2926ed2-d3b0-4c02-af03-e3944c94e077" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/91baacf6-9e4d-4446-ad89-1a162766c5a4" width="700"></td>
+    <td><img src="https://github.com/user-attachments/assets/85197850-f5e7-4fc7-9e17-29e552690d19" width="700"></td>
+    <td><img src="https://github.com/user-attachments/assets/c2926ed2-d3b0-4c02-af03-e3944c94e077" width="700"></td>
   </tr>
 </table>
 ---
