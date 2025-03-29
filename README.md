@@ -4,7 +4,7 @@
 LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점들을 보완한 학사시스템 입니다.</br>
 [관리자,교수자,학습자]의 역할별 권한에 따른 기능들을 효과적으로 관리하고 사용할 수 있게 설계되었습니다.
 
-<img width="700" alt="스크린샷 2025-03-29 오후 11 49 03" src="https://github.com/user-attachments/assets/905bba32-d5f1-4220-8893-6f53f9d37526" />
+<img width="800" alt="스크린샷 2025-03-29 오후 11 49 03" src="https://github.com/user-attachments/assets/905bba32-d5f1-4220-8893-6f53f9d37526" />
 </br></br>
 
 ---
@@ -59,8 +59,8 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/95a08c16-79c1-449f-96be-a5f196549ed0" width="600" alt="교수자 관리 생성"></td>
-    <td><img src="https://github.com/user-attachments/assets/9b7ae159-8f52-4afe-ac6d-32267df47537" width="600" alt="교수자 관리 수정/삭제"></td>
+    <td><img src="https://github.com/user-attachments/assets/95a08c16-79c1-449f-96be-a5f196549ed0" width="700" alt="교수자 관리 생성"></td>
+    <td><img src="https://github.com/user-attachments/assets/9b7ae159-8f52-4afe-ac6d-32267df47537" width="700" alt="교수자 관리 수정/삭제"></td>
   </tr>
 </table>
 
