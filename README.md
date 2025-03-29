@@ -151,22 +151,15 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 </br>
 
 ---
+## 6. 팀활동 현황
+- 각 조별과제 과정 현황을 나타낼 수 있는 '마일스톤' 관리기능
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/49e92ae3-56ec-4066-be34-7114bf0b9928" width="750" alt="팀활동현황 설정">
+    </td>
+  </tr>
+</table>
 
 
-## 메인 기술 스택
-- **Frontend**: React, Vite
-- **Backend**: Spring Boot, Spring Framework
-- **Database**: MySQL
-- **Authentication**: BCrypt를 이용한 ID/PW 찾기 및 보안
-
-## 담당 역할
-- **로그인/로그아웃 세션 관리**: 관리자, 교수자, 학습자 역할별 관리
-- **관리자 기능**:
-  - 교수자 추가/수정/삭제 (Front-End, Back-End, Database)
-  - 공지사항 생성, 수정, 삭제 기능 (Front-End, Back-End, Database)
-- **회원 정보 찾기**: BCrypt를 활용한 아이디 및 비밀번호 찾기 기능 (구현 중)
-
-
-## 📌 기타
-- **팀원 역할 분배**: 관리자, 교수자, 학생별 역할 구분 및 기능 개발
-- **프로젝트 일정**: 지속 업데이트 예정
