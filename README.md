@@ -34,9 +34,10 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 ## **💻 프로젝트 주요 화면**
 
 ### 📌 첫 화면 (Admin,Professor,Student) 계정으로 로그인
-- **Header**: `교수자 관리` 버튼이 표시됨
-- **Body**: 공지사항 박스에 `공지사항 관리` 버튼 표시
-- 공지사항 관리 버튼 클릭 시, 공지사항 관리 페이지로 이동
+- **Header**: **[로그인 전]** -> `로그인` `회원정보찾기` `회원가입`   </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[로그인 후]** -> `교수자 관리` `대학/학과 관리`
+- **Body**: `공지사항 관리` `내 강의실`
+</br>
 
 <table>
   <tr>
@@ -45,7 +46,13 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
     <td><img src="https://github.com/user-attachments/assets/c2926ed2-d3b0-4c02-af03-e3944c94e077" width="700"></td>
   </tr>
 </table>
+
+</br>
+
 ---
+
+</br>
+
 ## 📢 공지사항 관리
 
 ### 📝 공지사항 생성
