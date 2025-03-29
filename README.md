@@ -59,8 +59,8 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/95a08c16-79c1-449f-96be-a5f196549ed0" width="700" alt="교수자 관리 생성"></td>
-    <td><img src="https://github.com/user-attachments/assets/9b7ae159-8f52-4afe-ac6d-32267df47537" width="700" alt="교수자 관리 수정/삭제"></td>
+    <td><img src="https://github.com/user-attachments/assets/95a08c16-79c1-449f-96be-a5f196549ed0" width="750" alt="교수자 관리 생성"></td>
+    <td><img src="https://github.com/user-attachments/assets/9b7ae159-8f52-4afe-ac6d-32267df47537" width="750" alt="교수자 관리 수정/삭제"></td>
   </tr>
 </table>
 
