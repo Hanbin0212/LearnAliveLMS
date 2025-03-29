@@ -1,8 +1,11 @@
 # 모두를 위한 학사 관리 시스템 "LearnAliveLMS"
 
 ## 📌 프로젝트 소개
-LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점들을 보완한 학사시스템 입니다.
+LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점들을 보완한 학사시스템 입니다.</br>
 [관리자,교수자,학습자]의 역할별 권한에 따른 기능들을 효과적으로 관리하고 사용할 수 있게 설계되었습니다.
+
+<img width="700" alt="스크린샷 2025-03-29 오후 11 49 03" src="https://github.com/user-attachments/assets/905bba32-d5f1-4220-8893-6f53f9d37526" />
+</br></br>
 
 ---
 
@@ -13,24 +16,35 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 - **회원정보 찾기 및 재설정 기능**
 
 ### **🛠 관리자 기능**
-- **교수자 관리**: 교수자 추가, 수정, 삭제 기능 구현 (Front-End, Back-End, Database)
-- **공지사항 관리**: 공지사항 생성, 수정, 삭제 기능 구현 (Front-End, Back-End, Database)
+- **교수자 관리** : 교수자 추가, 수정, 삭제 기능 구현
+- **공지사항 관리** : 공지사항 생성, 수정, 삭제 기능 구현
+- **대학/학과 관리** : 단과대학/학과 생성, 수정, 삭제 기능 구현 
 
 ### ✅ 교수자 권한
-- 강의실 추가
-- 수강생 관리 (타 팀원 담당 부분 매핑까지 구현)
+- **팀활동 현황** : 각 조별과제 과정 현황을 나타낼 수 있는 '마일스톤' 관리기능
+- **팀 동료평가** : 조별과제 진행 중 동료평가 기능 구현 (구현중)
+
+</br></br>
 
 ---
 
+</br></br>
+
+
 ## **💻 프로젝트 주요 화면**
 
-### 📌 첫 화면 (Admin 계정으로 로그인 후)
+### 📌 첫 화면 (Admin,Professor,Student) 계정으로 로그인
 - **Header**: `교수자 관리` 버튼이 표시됨
 - **Body**: 공지사항 박스에 `공지사항 관리` 버튼 표시
 - 공지사항 관리 버튼 클릭 시, 공지사항 관리 페이지로 이동
 
-![Admin 로그인 후 공지사항](https://github.com/user-attachments/assets/60d93799-a120-404e-b34d-5f6ede53a3b1)
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/91baacf6-9e4d-4446-ad89-1a162766c5a4" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/85197850-f5e7-4fc7-9e17-29e552690d19" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/c2926ed2-d3b0-4c02-af03-e3944c94e077" width="500"></td>
+  </tr>
+</table>
 ---
 ## 📢 공지사항 관리
 
