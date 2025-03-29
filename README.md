@@ -5,11 +5,37 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 [관리자,교수자,학습자]의 역할별 권한에 따른 기능들을 효과적으로 관리하고 사용할 수 있게 설계되었습니다.
 
 <img width="800" alt="스크린샷 2025-03-29 오후 11 49 03" src="https://github.com/user-attachments/assets/905bba32-d5f1-4220-8893-6f53f9d37526" />
+
 </br></br>
+
+
+
+## 🕹️ 기술 스택
+
+### 프론트엔드  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=black)
+
+### 백엔드  
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=plastic&logo=Spring%20Boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=plastic&logo=Java&logoColor=white)
+
+### DB / 데이터베이스  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=MySQL&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=plastic&logo=data&logoColor=white)
+
+### 기타 도구  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=plastic&logo=GitHub&logoColor=white)
+
+
+
+
+</br>
 
 ---
 
-## **🔑 담당 주요 기능**
+## **🔑 담당 주요 기능** 
+
 ### 1. 로그인 세션 관리
 - **관리자, 교수자, 학습자 역할별 로그인 및 세션 관리**
 - **BCrypt를 이용한 ID/PW 찾기 기능**
@@ -49,8 +75,6 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 ---
 
-</br>
-
 ## 2. 교수자 생성/수정/삭제
 교수자 관리 페이지에서 교수자를 생성/수정/삭제 할 수 있습니다.
 
@@ -66,10 +90,6 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 </br>
 
 ---
-
-</br>
-
-
 
 
 ## 3. 공지사항 관리
@@ -99,10 +119,6 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 
 ---
 
-</br>
-
-
-
 ## 4. 대학/학과 관리
 대학/학과 관리 페이지에서 단과대학 및 학과를 생성/수정/삭제 할 수 있습니다.
 
@@ -112,10 +128,6 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 </br>
 
 ---
-
-</br>
-
-
 
 ## 5. 회원가입, 회원정보 찾기 및 비밀번호 수정
 - 생성한 단과대학/학과를 이용하여 학습자 회원가입을 할 수 있습니다. </br>
@@ -138,9 +150,6 @@ LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점�
 </br>
 
 ---
-
-</br>
-
 
 
 ## 메인 기술 스택
