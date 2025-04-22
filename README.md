@@ -1,4 +1,4 @@
-# 모두를 위한 학사 관리 시스템 "LearnAliveLMS"
+# 모두의 학사 관리 시스템 "LearnAliveLMS"
 
 ## 📌 프로젝트 소개
 LearnAliveLMS는 기존에 한국에서 사용하는 학사시스템의 단점들을 보완한 학사시스템 입니다.</br>
